@@ -4,7 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
-var app = express.createServer(express.logger()),
+var app = express.createServer(express.logger());
+var io = require('socket.io').listen(app);
 
 
 var indexRouter = require('./routes/index');
@@ -28,7 +29,6 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-io = require('socket.io').listen(app);
 io.configure(function () { 
   io.set("transports", ["xhr-polling"]); 
   io.set("polling duration", 10); 
