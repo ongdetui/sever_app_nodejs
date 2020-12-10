@@ -3,15 +3,18 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var server = require('http').createServer(app);
-
 var cors = require('cors')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-app.listen(process.env.PORT || 3000);
+var server = app.listen(process.env.PORT || 3000);
+server.on('clientError', (err, socket) => {
+  console.error(err);
+  socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
+});
+
 app.use(function(req, res, next) {
   var reqType = req.headers["x-forwarded-proto"];
   reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
