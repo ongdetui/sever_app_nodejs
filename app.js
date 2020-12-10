@@ -4,8 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
-var app = express.createServer(express.logger());
-var io = require('socket.io').listen(app);
 
 
 var indexRouter = require('./routes/index');
@@ -29,20 +27,6 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-io.configure(function () { 
-  io.set("transports", ["xhr-polling"]); 
-  io.set("polling duration", 10); 
-});
-
-var status = "All is well.";
-
-io.sockets.on('connection', function (socket) {
-  io.sockets.emit('status', { status: status }); // note the use of io.sockets to emit but socket.on to listen
-  socket.on('reset', function (data) {
-    status = "War is imminent!";
-    io.sockets.emit('status', { status: status });
-  });
-});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
