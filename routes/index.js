@@ -3,8 +3,8 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-// const url = 'mongodb+srv://ct030215:anhduckaka2000@cluster0.yt9gg.mongodb.net/app3?retryWrites=true&w=majority';
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://ct030215:anhduckaka2000@cluster0.yt9gg.mongodb.net/app3?retryWrites=true&w=majority';
+// const url = 'mongodb://localhost:27017';
 const dbName = 'milktea';
 
 
