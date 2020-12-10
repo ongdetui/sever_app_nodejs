@@ -11,6 +11,10 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 app.listen(process.env.PORT || 3000);
+app.use(function(req, res, next) {
+  var reqType = req.headers["x-forwarded-proto"];
+  reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
