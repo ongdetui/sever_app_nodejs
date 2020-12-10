@@ -6,10 +6,27 @@ var logger = require('morgan');
 var cors = require('cors');
 
 
+var app = express.createServer(express.logger()),
+io = require('socket.io').listen(app);
+io.configure(function () { 
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
+
+var status = "All is well.";
+
+io.sockets.on('connection', function (socket) {
+  io.sockets.emit('status', { status: status }); // note the use of io.sockets to emit but socket.on to listen
+  socket.on('reset', function (data) {
+    status = "War is imminent!";
+    io.sockets.emit('status', { status: status });
+  });
+});
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var app = express();
+// var app = express();
 app.listen(process.env.PORT || 3000);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
