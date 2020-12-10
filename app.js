@@ -9,22 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-// var server = app.listen(process.env.PORT || 3000);
-var https = require('https');
-var server = https.createServer({
-    key: fs.readFileSync('./test_key.key'),
-    cert: fs.readFileSync('./test_cert.crt'),
-    ca: fs.readFileSync('./test_ca.crt'),
-    requestCert: false,
-    rejectUnauthorized: false
-},app);
-server.listen(process.env.PORT || 3000);
-
-var io = require('socket.io').listen(server);
-
-io.sockets.on('connection',function (socket) {
-    
-});
+app.listen(process.env.PORT || 3000);
 
 
 // view engine setup
