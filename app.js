@@ -9,16 +9,23 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-var server = app.listen(process.env.PORT || 3000);
-server.on('clientError', (err, socket) => {
-  console.error(err);
-  socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
+// var server = app.listen(process.env.PORT || 3000);
+var https = require('https');
+var server = https.createServer({
+    key: fs.readFileSync('./test_key.key'),
+    cert: fs.readFileSync('./test_cert.crt'),
+    ca: fs.readFileSync('./test_ca.crt'),
+    requestCert: false,
+    rejectUnauthorized: false
+},app);
+server.listen(process.env.PORT || 3000);
+
+var io = require('socket.io').listen(server);
+
+io.sockets.on('connection',function (socket) {
+    
 });
 
-app.use(function(req, res, next) {
-  var reqType = req.headers["x-forwarded-proto"];
-  reqType == 'https' ? next() : res.redirect("https://" + req.headers.host + req.url);
-});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
