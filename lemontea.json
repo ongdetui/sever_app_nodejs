@@ -1,0 +1,105 @@
+[
+    {
+        "tenSanPham" : "trà chanh cam sả",
+        "priceCurrent" : "20.000",
+        "priceOld" : "23.000",
+        "gia" : 20000,
+        "bigImage" : "https://toplist.vn/images/800px/the-coffee-house-306973.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, cam, sả,...",
+        "origin" : "Việt Nam",
+        "sell" : 4212,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "trà chanh truyền thống",
+        "priceCurrent" : "12.000",
+        "priceOld" : "14.000",
+        "gia" : 12000,
+        "bigImage" : "https://blog.beemart.vn/wp-content/uploads/2020/05/W1A57nEO14CX_tra-chanh-sa-web.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 6212,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "trà chanh con cá",
+        "priceCurrent" : "20.000",
+        "priceOld" : "24.000",
+        "gia" : 20000,
+        "bigImage" : "https://images.foody.vn/res/g94/937466/s800/foody-tra-chanh-con-ca-937466-833-636982969366537258.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, bánh con cá, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 412,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "trà chanh leo",
+        "priceCurrent" : "23.000",
+        "priceOld" : "26.000",
+        "gia" : 23000,
+        "bigImage" : "https://kinhdoanhcafe.com/wp-content/uploads/2013/04/cach-pha-che-tra-chanh-leo-mat-ong-1.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh leo, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 1416,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "trà tắc Bụi Phố",
+        "priceCurrent" : "20.000",
+        "priceOld" : "26.000",
+        "gia" : 20000,
+        "bigImage" : "https://haitratancuong.com/wp-content/uploads/2020/09/tra-tac-mat-ong-giai-nhiet.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, quất, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 3416,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Trà Chanh Dâu Sả",
+        "priceCurrent" : "35.000",
+        "priceOld" : "39.000",
+        "gia" : 35000,
+        "bigImage" : "https://afamilycdn.com/Images/Uploaded/Share/2010/07/02/chanhdau3.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, dâu, sả, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 1236,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Trà Chanh Việt quất",
+        "priceCurrent" : "35.000",
+        "priceOld" : "42.000",
+        "gia" : 35000,
+        "bigImage" : "https://i.pinimg.com/474x/14/c7/ff/14c7ffdcc619746741f86648fb1d0bc3.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh tươi, việt quất, sả, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 6236,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Trà Chanh Hoa Hồng",
+        "priceCurrent" : "25.000",
+        "priceOld" : "29.000",
+        "gia" : 25000,
+        "bigImage" : "https://anh.eva.vn//upload/2-2015/images/2015-05-18/1431938785-tra-chanh-hoa-hong-10.jpg",
+        "brand" : "Bụi Phố",
+        "thanhPhan" : "chanh, cánh hoa hồng, đường,...",
+        "origin" : "Việt Nam",
+        "sell" : 236,
+        "rating" : 5
+}
+]

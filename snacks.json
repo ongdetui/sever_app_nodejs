@@ -1,0 +1,131 @@
+[
+{
+    "tenSanPham" : "Bánh tráng trộn.",
+    "priceCurrent" : "25.000",
+    "priceOld" : "30.000",
+    "gia" : 25000,
+    "bigImage" : "https://media.cooky.vn/recipe/g1/1615/s480x480/recipe1615-prepare-step3-636520093053653228.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Bánh tráng, trứng, xoài, ớt,...",
+    "origin" : "Việt Nam",
+    "sell" : 912,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "Bánh bắp chiên.",
+    "priceCurrent" : "10.000",
+    "priceOld" : "12.000",
+    "gia" : 10000,
+    "bigImage" : "https://lh3.googleusercontent.com/proxy/KuGr48D_Ew23bZTDf2WFRfpFKGOwvyb2JNR7I1S5za6MnoJQWnvSie0rV_m0xTdnnMdrIAcdymIxDHvxWJ8oNyBdrYeL8fi6KPVG9zSAPcDBlw9gcnwb4ZV7cWiBKgy6iJPGRdjEOBigHw",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Bột mỳ, bắp tươi, đường,...",
+    "origin" : "Việt Nam",
+    "sell" : 1912,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "Chè thập cẩm.",
+    "priceCurrent" : "15.000",
+    "priceOld" : "17.000",
+    "gia" : 15000,
+    "bigImage" : "https://image-us.eva.vn/upload/1-2018/images/2018-03-13/cach-nau-che-thap-cam-cach-nau-che-thap-cam-7-1520911906-250-width650height488.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Bột mỳ, trân trâu, đường, táo, dừa khô,...",
+    "origin" : "Việt Nam",
+    "sell" : 3412,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "xúc xích chiên",
+    "priceCurrent" : "8.000",
+    "priceOld" : "10.000",
+    "gia" : 10000,
+    "bigImage" : "https://cf.shopee.vn/file/3f3791548dce9029050b24a88b437551",
+    "brand" : "Bình dân",
+    "thanhPhan" : "xúc xích",
+    "origin" : "Việt Nam",
+    "sell" : 5412,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "xúc xích phô mai",
+    "priceCurrent" : "18.000",
+    "priceOld" : "20.000",
+    "gia" : 18000,
+    "bigImage" : "https://toinayangi.vn/wp-content/uploads/2015/06/c%C3%A1ch-l%C3%A0m-x%C3%BAc-x%C3%ADch-chi%C3%AAn-gi%C3%B2n.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "xúc xích",
+    "origin" : "Việt Nam",
+    "sell" : 2412,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "sữa chua nếp cẩm",
+    "priceCurrent" : "15.000",
+    "priceOld" : "19.000",
+    "gia" : 15000,
+    "bigImage" : "https://beptruong.edu.vn/wp-content/uploads/2019/03/sua-chua-nep-cam.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Sữa chua, gạo nếp cẩm",
+    "origin" : "Việt Nam",
+    "sell" : 412,
+    "rating" : 4
+}
+,
+{
+    "tenSanPham" : "khô gà bơ tỏi",
+    "priceCurrent" : "25.000",
+    "priceOld" : "28.000",
+    "gia" : 25000,
+    "bigImage" : "https://cf.shopee.vn/file/b250a5b039c2d6dbadf58c9d1b12b32b",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Thịt gà, tỏi khô, da vị,...",
+    "origin" : "Việt Nam",
+    "sell" : 712,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "khô bò hảo hạng",
+    "priceCurrent" : "35.000",
+    "priceOld" : "42.000",
+    "gia" : 35000,
+    "bigImage" : "https://lh3.googleusercontent.com/proxy/iQm8fUu_wh_3Qos-1-i_McI5S6520N8__mSqFwHDuXjItcpilInVlaeWfBmN7yy8b_tk9mUd_rm1Mnp2wS2pK8xxe6n_5JiCsZXH2Onm7T2gcD9xnTdARwwSiwUZ",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Thịt bò, tỏi khô, da vị,...",
+    "origin" : "Việt Nam",
+    "sell" : 212,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "Bắp chiên phô mai",
+    "priceCurrent" : "25.000",
+    "priceOld" : "32.000",
+    "gia" : 25000,
+    "bigImage" : "https://cdn.tgdd.vn/Files/2019/11/19/1220324/huong-dan-2-cach-lam-ngo-chien-ngon-gion-don-gian-tai-nha-9.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Bắp tươi, phô mai, bột chiên,...",
+    "origin" : "Việt Nam",
+    "sell" : 1212,
+    "rating" : 5
+}
+,
+{
+    "tenSanPham" : "Cá viên chiên",
+    "priceCurrent" : "23.000",
+    "priceOld" : "35.000",
+    "gia" : 23000,
+    "bigImage" : "https://dulichvietnam.com.vn/vnt_upload/File/Image/quan_ca_vien_chien_o_tphcm.jpg",
+    "brand" : "Bình dân",
+    "thanhPhan" : "Cá viên",
+    "origin" : "Việt Nam",
+    "sell" : 3212,
+    "rating" : 5
+}
+]

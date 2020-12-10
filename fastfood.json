@@ -1,0 +1,105 @@
+[
+{
+        "tenSanPham" : "TOK Burgers",
+        "priceCurrent" : "65.000",
+        "priceOld" : "75.000",
+        "gia" : 65000,
+        "bigImage" : "https://static.vietnammm.com/images/restaurants/vn/OQO53RR/products/banh-mi-kim-chi-thit-nuong-truyen-thong-26k.png",
+        "brand" : "McDonald's",
+        "thanhPhan" : "Thịt bò, bột mỳ, dưa chuột, sốt, cà chua miếng,...",
+        "origin" : "Việt Nam",
+        "sell" : 624,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "kem ốc quế",
+        "priceCurrent" : "10.000",
+        "priceOld" : "15.000",
+        "gia" : 10000,
+        "bigImage" : "https://mcdonalds.vn/uploads/2018/food/desserts/mcdonalds_cone.png",
+        "brand" : "McDonald's",
+        "thanhPhan" : "Sữa, đường, nước, hương liệu,...",
+        "origin" : "Việt Nam",
+        "sell" : 1024,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Kem McSundae™ sốt Dâu",
+        "priceCurrent" : "29.000",
+        "priceOld" : "40.000",
+        "gia" : 29000,
+        "bigImage" : "https://mcdonalds.vn/uploads/2018/food/desserts/strawberry-mcsundae.png",
+        "brand" : "McDonald's",
+        "thanhPhan" : "Sữa, đường, nước, hương liệu,...",
+        "origin" : "Việt Nam",
+        "sell" : 1524,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Bành táo nướng - MC",
+        "priceCurrent" : "25.000",
+        "priceOld" : "27.000",
+        "gia" : 25000,
+        "bigImage" : "https://lh3.googleusercontent.com/proxy/WtsME6rDFnOZa7Ujkng8ANiV9T6FH93WxPmCwsNzgJj3McJ0jUt-2ZyKo8w63zVrAERpbHFDd6cNIUsSj7Qp6ykUzXtY5t7XhZR14mkIJ2SdK9sFJUw5uagmWnRuWow",
+        "brand" : "McDonald's",
+        "thanhPhan" : "Bột mỳ, táo, bơ,...",
+        "origin" : "Việt Nam",
+        "sell" : 524,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Bành mỳ thịt nướng",
+        "priceCurrent" : "20.000",
+        "priceOld" : "25.000",
+        "gia" : 20000,
+        "bigImage" : "https://thucpham29.com/media/news/194_banh_mi_thit_nuong_ha_noi.jpg",
+        "brand" : "Bành mỳ Dân Tổ",
+        "thanhPhan" : "Bột mỳ, thịt nướng, rau thơm, dưa chuột, nước sốt, tương ớt,...",
+        "origin" : "Việt Nam",
+        "sell" : 224,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Bành mỳ trướng pate",
+        "priceCurrent" : "20.000",
+        "priceOld" : "25.000",
+        "gia" : 20000,
+        "bigImage" : "https://vcdn-dulich.vnecdn.net/2020/03/03/banh-mi-xiu-mai-00-6463-1583204140.jpg",
+        "brand" : "Bành mỳ Dân Tổ",
+        "thanhPhan" : "Bột mỳ, trứng, pate, rau thơm, dưa chuột, nước sốt, tương ớt,...",
+        "origin" : "Việt Nam",
+        "sell" : 1224,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "bánh mì xúc xích",
+        "priceCurrent" : "20.000",
+        "priceOld" : "25.000",
+        "gia" : 20000,
+        "bigImage" : "https://media.cooky.vn/recipe/g5/44951/s480x480/recipe44951-cook-step4-636824794131709335.jpeg",
+        "brand" : "Bành mỳ Dân Tổ",
+        "thanhPhan" : "Bột mỳ, xúc xích, rau thơm, dưa chuột, nước sốt, tương ớt,...",
+        "origin" : "Việt Nam",
+        "sell" : 2224,
+        "rating" : 5
+}
+,
+{
+        "tenSanPham" : "Xôi xéo",
+        "priceCurrent" : "10.000",
+        "priceOld" : "15.000",
+        "gia" : 10000,
+        "bigImage" : "https://noiphodien123.vn/wp-content/uploads/2020/06/Cach-lam-xoi-xeo-de-ban-ngon-deo.jpg",
+        "brand" : "Xôi truyền thống",
+        "thanhPhan" : "Gạo nếp, đậu, thịt, hành khô,...",
+        "origin" : "Việt Nam",
+        "sell" : 976,
+        "rating" : 5
+}
+]
