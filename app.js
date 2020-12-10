@@ -11,12 +11,6 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 app.listen(process.env.PORT || 3000);
-const io = socketIO(app);
-io.on('connection', (socket) => {
-  console.log('Client connected');
-  socket.on('disconnect', () => console.log('Client disconnected'));
-});
-setInterval(() => io.emit('time', new Date().toTimeString()), 1000);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
